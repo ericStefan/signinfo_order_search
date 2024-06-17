@@ -1,24 +1,7 @@
-# signinfo_order_search
+请求对应客户id的订单信息：
+http://172.16.14.19:8000/view/customer/customer_order_info_detail/客户id
+http://172.16.14.19:8000/api/customer/customer_order_info_detail/客户id
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+请求所有客户信息：
+http://172.16.14.19:8000/view/customer/customer_base_info/
+http://172.16.14.19:8000/api/customer/customer_base_info/
